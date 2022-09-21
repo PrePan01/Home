@@ -232,7 +232,9 @@
 			"rotateRatio": 0 // 字体倾斜(旋转)概率，1代表总是倾斜(旋转)
 		});
 		//生成
-		window.onload = WordCloud(canvas, options)
+		document.fonts.ready.then(() => {
+			WordCloud(canvas, options)
+		})
 	</script>
 </body>
 

@@ -283,7 +283,7 @@ a {
 
 .qrcode {
     position: absolute;
-    top: 150px;
+    top: 160px;
     text-align: center;
     font-size: 20px;
     visibility: hidden;
